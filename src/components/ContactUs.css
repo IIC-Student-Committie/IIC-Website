@@ -1,0 +1,57 @@
+.contact-us-container {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+  }
+  
+  .contact-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+  }
+  
+  /* Styling for input fields */
+  .form-control {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+    padding: 20px 10px;
+    margin: 20px 0px;
+  }
+  
+  /* Styling for input fields when focused (preventing background color change) */
+  .form-control:focus {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  /* Styling for placeholder text */
+  .form-control::placeholder {
+    color: #fff;
+  }
+  
+  /* Styling for textarea */
+  .form-control textarea {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  /* Styling for submit button */
+  .btn-primary {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styling for smaller screens */
+    .contact-us-container {
+      padding: 20px;
+    }
+  }
+  
